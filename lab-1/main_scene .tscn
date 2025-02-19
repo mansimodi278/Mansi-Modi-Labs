@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cx4lp5n6g8sav" path="res://rabbit.png" id="1_a1kpi"]
 [ext_resource type="Texture2D" uid="uid://40va1sdvniop" path="res://bear png.png" id="2_800d1"]
-[ext_resource type="PackedScene" uid="uid://dry1nqqscdy6t" path="res://forest.tscn" id="3_ott27"]
+[ext_resource type="PackedScene" uid="uid://dry1nqqscdy6t" path="res://tree.tscn" id="3_ott27"]
 
 [node name="Rabbit" type="Sprite2D"]
 position = Vector2(-555, -349)
@@ -14,19 +14,15 @@ position = Vector2(-6074.67, -4112.9)
 scale = Vector2(6.638, 5.69027)
 texture = ExtResource("2_800d1")
 
-[node name="tree" parent="." instance=ExtResource("3_ott27")]
-position = Vector2(-3195.39, -1382.95)
-
 [node name="tree2" type="Node2D" parent="."]
 position = Vector2(-400.617, 3299.82)
-scale = Vector2(1, 1)
 
 [node name="leaves" type="ColorRect" parent="tree2"]
-offset_left = 786.925
-offset_top = -7251.74
-offset_right = 3330.92
-offset_bottom = -4978.74
-color = Color(0.359867, 0.721144, 0.399457, 1)
+offset_left = 796.464
+offset_top = -7304.25
+offset_right = 3340.46
+offset_bottom = -5031.25
+color = Color(0.426343, 0.699922, 0.508597, 1)
 
 [node name="trunk" type="ColorRect" parent="tree2"]
 offset_left = 1826.62
@@ -34,3 +30,9 @@ offset_top = -5028.51
 offset_right = 2474.62
 offset_bottom = -2755.51
 color = Color(0.386, 0.237956, 0.0650213, 1)
+
+[node name="tree" parent="." instance=ExtResource("3_ott27")]
+position = Vector2(-10668.8, -5081.03)
+
+[node name="tree3" parent="." instance=ExtResource("3_ott27")]
+position = Vector2(-825.079, -10464)
