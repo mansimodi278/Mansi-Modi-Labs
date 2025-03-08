@@ -11,6 +11,7 @@ texture = ExtResource("1_a1kpi")
 
 [node name="BearPng" type="Sprite2D" parent="."]
 position = Vector2(-6074.67, -4112.9)
+rotation = -0.0318047
 scale = Vector2(6.638, 5.69027)
 texture = ExtResource("2_800d1")
 
